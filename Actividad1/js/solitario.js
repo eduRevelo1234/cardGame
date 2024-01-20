@@ -160,7 +160,7 @@ function CrearBarajaHTML(baraja)
       imagen.src = baraja.img;
    } else 
    {
-      imagen.src = "../../Actividad1/imagenes/baraja/lomo.png";
+      imagen.src = "/imagenes/baraja/lomo.png";
    }
    imagen.setAttribute("id", baraja.id);
    imagen.dataset.numero = baraja.numero;
